@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 uci -q batch <<-EOF >/dev/null
 	delete ucitrack.@pushbot[-1]
